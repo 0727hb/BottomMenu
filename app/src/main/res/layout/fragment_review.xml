@@ -21,7 +21,7 @@
                 android:layout_height="wrap_content"
                 android:background="#FFFFFF"
                 android:backgroundTint="#FFEB3B"
-                android:text="후기등록"
+                android:text="REVIEW"
                 android:textAlignment="center"
                 android:textColor="#673AB7"
                 android:textSize="24sp"
@@ -264,11 +264,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="16dp"
                         android:layout_marginBottom="16dp"
-                        android:background="#00BCD4"
-                        android:backgroundTint="#673AB7"
-                        android:buttonTint="#FFEB3B"
                         android:text="추천해요"
-                        android:textColor="#FFFFFF"
                         app:layout_constraintStart_toEndOf="@+id/db_choose"
                         app:layout_constraintTop_toBottomOf="@+id/content" />
 
@@ -279,11 +275,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="16dp"
                         android:layout_marginBottom="16dp"
-                        android:background="#FFEB3B"
-                        android:backgroundTint="#673AB7"
-                        android:buttonTint="#FFEB3B"
                         android:text="비추천해요"
-                        android:textColor="#FFFEFE"
                         app:layout_constraintStart_toEndOf="@+id/btn_good"
                         app:layout_constraintTop_toBottomOf="@+id/content" />
                 </LinearLayout>
